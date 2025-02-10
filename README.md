@@ -1,4 +1,4 @@
-# Hi, I'm **れいん😁**
+# Hi, I'm **れいん![](./2023.1.23cut.png)**
 
 ![rain022's GitHub stats](https://github-readme-stats.vercel.app/api?username=rain022&count_private=true&theme=tokyonight&show_icons=true)
 [![trophy](https://github-profile-trophy.vercel.app/?username=rain022&theme=onedark&column=8
