@@ -1,18 +1,10 @@
-name: generate 3d chart for profile contributions
+
+name: GitHub-Profile-3D-Contrib
 
 on:
-  # run automatically every 24 hours
-  schedule:
-    - cron: "0 0 * * *"
-
-  # allows to manually run the job at any time
+  schedule: # 04:00 JST == 19:00 UTC
+    - cron: "0 19 * * *"
   workflow_dispatch:
-
-  # run on every push on the main branch
-  # don't forget to change if you're using 'master' branch
-  push:
-    branches:
-    - main
 
 jobs:
   build:
@@ -22,7 +14,7 @@ jobs:
       - uses: actions/checkout@v3
       - uses: yoshi389111/github-profile-3d-contrib@0.7.1
         env:
-          GITHUB_TOKEN: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
+          GITHUB_TOKEN: ${{ PERSONAL_ACCESS_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
