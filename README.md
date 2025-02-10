@@ -4,4 +4,4 @@
 
 - [X](https://x.com/RaIn_22da)
 
-![](./profile-3d-contrib/profile-3d-contrib/profile-night-view.svg)
+![](./profile-3d-contrib/profile-night-rainbow.svg)
